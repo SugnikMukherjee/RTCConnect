@@ -1,0 +1,28 @@
+{
+  "name": "video-chat-backend",
+  "version": "1.0.0",
+  "description": "WebRTC Video Chat Backend with Socket.IO",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webrtc",
+    "video-chat",
+    "socket.io",
+    "nodejs"
+  ],
+  "author": "Sugnik Mukherjee",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
